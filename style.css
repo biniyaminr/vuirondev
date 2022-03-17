@@ -411,17 +411,17 @@ h1 .single {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: black;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: white;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #151515;
+  color: white;
   background-color: #ffc451;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
