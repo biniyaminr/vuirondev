@@ -118,6 +118,7 @@
   /**
    * Mobile nav dropdowns activate
    */
+  
   on('click', '.navbar .dropdown > a', function(e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
