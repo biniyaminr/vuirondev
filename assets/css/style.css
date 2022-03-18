@@ -28,14 +28,18 @@ a{
 .btn-group .btnme{
   width: 350px;
   height: 63px;
+  margin-top: 15px;
   border-radius: 40px;
   align-items: center;
   justify-content: center;
   padding: 10px 25px;
-  font-size: 21px;
+  font-size: 20px;
   color:#eee;
   background-image: linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   transition: 500ms;
+}
+.btn-group .btnme a{
+  color: white;
 }
 .btn-group .btnme button:hover::after{
   font-size: 25px;
@@ -101,12 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 .h1color {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
-  font-size: 260px;
-  line-height: 188px;
+  font-weight: 300;
+  font-size: 560px;
+  /* line-height: 188px; */
   text-align: center;
   position: absolute;
-  background-image:  linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(270deg, #5A1EEF 18.5%, #971CEF 47.54%, #E118EE 75.3%, #FD6D04 102.98%);
 
 }
 h1 .single {
@@ -1117,11 +1121,10 @@ a {
   text-align: center;
 }
 #hero h1 {
-  margin: 0;
-  font-size: 66px;
-  font-weight: 700;
-  line-height: 64px;
-  color:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  font-size: 106px;
+  font-weight: 400;
+  line-height: 89px;
+  background-image:  linear-gradient(90.03deg, #E75800 11.75%, #E118EE 37.69%, #971CEF 63.63%, #5A1EEF 86.83%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
