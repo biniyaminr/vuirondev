@@ -25,7 +25,28 @@ a{
   user-select: none;
   color: transparent;
 }
-
+.btn-group .btnme{
+  width: 350px;
+  height: 63px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  font-size: 21px;
+  color:#eee;
+  background-image: linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  transition: 500ms;
+}
+.btn-group .btnme button:hover::after{
+  font-size: 25px;
+  background-color: transparent;
+}
+.btn-group .btnme button:hover{
+  transform: scale(0.9);
+}
+.btn-group .btnme button:focus{
+  outline: none;
+}
 button
 {
   width: 300px;
@@ -85,7 +106,7 @@ h1 .h1color {
   line-height: 188px;
   text-align: center;
   position: absolute;
-  background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
 
 }
 h1 .single {
@@ -96,7 +117,7 @@ h1 .single {
   line-height: 188px;
   text-align: center;
   position: absolute;
-  background-image:  -webkit-linear-gradient(90deg, #FD6D04 32.54%, #E118EE 42.98%, #A402D5 53.91%, #5A1EEF 63.86%);
+  background-image:  linear-gradient(90deg, #FD6D04 32.54%, #E118EE 42.98%, #A402D5 53.91%, #5A1EEF 63.86%);
 
 }
 /*
@@ -518,7 +539,8 @@ nav .desktop-nav li a:hover {
   }
 
   nav .menu-icon .line-1,
-  nav .menu-icon .line-2 {
+  nav .menu-icon .line-2,
+  nav .menu-icon .line-3 {
       position: absolute;
       height: 1px;
       width: 100%;
@@ -1222,7 +1244,7 @@ section {
   font-family: 'Roboto', sans-serif;
 }
 .about .content h1 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 68px;
   color:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   -webkit-background-clip: text;
@@ -1230,9 +1252,9 @@ section {
   font-family: 'Roboto', sans-serif;
 }
 .about .row h2 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 40px;
-  color:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #D903C3 0%, #FF0000 95.8%);
+  color:  -webkit-linear-gradient(20deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #D903C3 0%, #FF0000 95.8%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -1283,16 +1305,16 @@ section {
 .takeur .container .section-title h1{
   text-align: center;
   font-weight: 400;
-  font-size: 58px;
-  color:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #D903C3 0%, #FF0000 95.8%);
+  font-size: 68px;
+  background-image:  linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
 }
 .takeur .content h1 {
-  font-weight: 250;
+  font-weight: 350;
   font-size: 38px;
-  color:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);background:  -webkit-linear-gradient(90deg, #D903C3 0%, #FF0000 95.8%);
+  background-image:  linear-gradient(90deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -1401,7 +1423,7 @@ section {
   font-size: 64px;
   line-height: 75px;
   text-align: center;
-  background-image:  -webkit-linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
+  background-image:  linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
   /* background:  -webkit-linear-gradient(90deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1472,7 +1494,7 @@ section {
   font-size: 34px;
 }
 .servicess .icon-box h4 a {
-  background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   /* background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1520,7 +1542,7 @@ section {
   font-size: 34px;
 }
 .servicess .icon-boxx h4 a {
-  background:  -webkit-linear-gradient(22deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(22deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   /* background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1575,7 +1597,7 @@ section {
   font-size: 64px;
   line-height: 75px;
   text-align: center;
-  background-image:  -webkit-linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
+  background-image:  linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
   /* background:  -webkit-linear-gradient(90deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1644,7 +1666,7 @@ section {
   font-size: 34px;
 }
 .services .icon-box h4 a {
-  background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   /* background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1692,7 +1714,7 @@ section {
   font-size: 34px;
 }
 .services .icon-boxx h4 a {
-  background:  -webkit-linear-gradient(22deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image:  linear-gradient(22deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
   /* background:  -webkit-linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2214,7 +2236,7 @@ section {
   font-weight: 100;
   line-height: 64px;
   text-align: center;
-  background-image:  -webkit-linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
+  background-image:  linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -2222,7 +2244,7 @@ section {
 .container .par{
   font-size: 28px;
   text-align: center;
-  background-image:  -webkit-linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
+  background-image:  linear-gradient(22deg, #D903C3 28.21%, #FF0000 50.69%, #D903C3 72.11%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -2302,7 +2324,7 @@ section {
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border: 0;
   border-bottom: 1px solid white;
-  /* background: linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%); */
+  background-image: linear-gradient(90deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
 }
 .contact .php-email-form input {
   height: 44px;
@@ -2311,7 +2333,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  /* background: linear-gradient(90deg, #D903C3 0%, #2400FF 0.01%, #971CEF 103.62%); */
+  background-image: linear-gradient(90deg, #D903C3 0%, #2400FF 0.01%, #971CEF 103.62%);
   border: 0;
   border-bottom: 1px solid white;
   padding: 10px 24px;
@@ -2320,7 +2342,7 @@ section {
   
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: linear-gradient(270deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
+  background-image: linear-gradient(270deg, #E75800 0.01%, #E118EE 35.08%, #971CEF 69.08%, #5A1EEF 103.62%);
 }
 @-webkit-keyframes animate-loading {
   0% {
